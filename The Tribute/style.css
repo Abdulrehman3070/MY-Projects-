@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #e5e5fd;
+    width: 90%;
+    max-width: 400px; /* Sets a maximum width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 50px auto; /* Centers the container horizontally */
+    border: 8px solid #1d1e4c;
+    position: relative; /* Keeps relative positioning for internal elements */
+    padding: 20px; /* Adds some padding inside the container */
+}
+
+.pic {
+    background-image: url("0b72d249-0001-0005-0000-000001265557_w316_r0.7523809523809524_fpx50_fpy37.62.jpg");
+    height: 140px;
+    width: 110px;
+    background-size: cover;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px; /* Adds spacing between the image and text */
+}
+
+.text {
+    font-weight: 600;
+    text-align: center;
+    font-family: "Roboto", sans-serif; /* Ensure fallback fonts */
+}
+
+.dates {
+    font-weight: 200;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Center aligns the date text */
+}
+
+.heading {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+
+.para {
+    font-size: 8px;
+    font-family: "Roboto";
+    margin-top: 10px; /* Adjust margin as needed */
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Ensures it stacks vertically */
+}
+
+.biography {
+    font-size: 7px;
+    font-family: 'roboto', Courier, monospace;
+    text-align: left;
+    justify-content: flex-start;
+    margin-top: 10px; /* Pushes the biography to the bottom of the container */
+    width: 100%; /* Ensures the biography takes full width */
+}
+.link{  
+    font-size: 6px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
